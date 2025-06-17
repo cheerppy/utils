@@ -12,7 +12,7 @@ powershell -Command "%script%"
 if %ERRORLEVEL% neq 0 (
 	echo.
 	echo Press any key to exit . . .
-	pause > null
+	pause > nul
 	exit 1
 )
 
